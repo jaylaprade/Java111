@@ -1,0 +1,28 @@
+/*  Chapter No. 2       Lab No. 1
+ *  File Name: StringLab1.java
+ *  @Author: Jason Laprade
+ *  Date: August 26, 2013
+ *  
+ *  Problem Statement: Learn about String Methods
+ *  
+ *  
+ *  Classes needed and purpose: 'java.util' will be needed for the general purpose i/o from terminal
+ */
+
+public class StringLab1
+{
+    public static void main(String[] args)
+    {
+	
+		String collegeName = "Mira Costa College";
+
+		System.out.println(collegeName);
+		
+		boolean isEqual = collegeName.equals("Mira Costa College");
+		System.out.println(isEqual);
+
+		
+
+
+	}
+}
